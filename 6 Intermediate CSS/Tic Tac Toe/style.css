@@ -1,0 +1,27 @@
+h1 {
+	text-align: center;
+}
+
+table {
+	margin: auto;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+}
+
+/*Vertical borders of the TTT table
+this can also be done by creating classes*/
+tr td:nth-of-type(2) {
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+/*Horizontal borders of the TTT table
+this can also be done by creating classes*/
+tr:nth-of-type(2) td{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
