@@ -9,6 +9,7 @@ function average(arr) {
     return Math.round(total/arr.length);
 }
 
+//use node to run this js file
 var scores = [90,98,89,100,100,86,94];
 console.log(average(scores));
 
