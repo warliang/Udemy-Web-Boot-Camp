@@ -28,6 +28,8 @@ mongoose.set('useFindAndModify', false);
 
 // seedDB();    // seed DB
 
+app.locals.moment = require("moment");
+
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({
     secret: "Secret Key",
